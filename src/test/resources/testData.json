@@ -1,6 +1,20 @@
 {
-  "testsMinWorkingTimeFileName": "testsMinWorkingTime",
-  "projectsAndCountOfTestsFileName": "projectsAndCountOfTests",
-  "testsRunAfterDateFileName": "testsRunAfterDate",
-  "totalTestsByBrowserFileName": "totalTestsByBrowser"
+  "messageLength": "30",
+  "author": "Иван Иванов",
+  "imagePath": "./src/test/resources/image.jpg",
+  "firstLikeIndex": "0",
+  "imageToComparePath": "./src/test/resources/",
+  "imageToCompareName": "_image.jpg",
+  "imagesDifferencePercentage": "0.",
+  "differenceBetweenPostIdAndCommentId": 1,
+  "robotDelayBefore": 2000,
+  "robotDelayWindow": 4000,
+  "robotDelayAfter": 3000,
+  "robotDelayBetweenTabs": 1000,
+  "pathToFolderSrc": "src",
+  "pathToFolderTest": "test",
+  "pathToFolderResources": "resources",
+  "dataTimeFormat": "yyyy-MM-dd_hh-mm-ss",
+  "tabCount": 1,
+  "defaultTabsCount": 6
 }

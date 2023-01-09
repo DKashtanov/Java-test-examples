@@ -1,6 +1,0 @@
-SELECT project.name as PROJECT, test.name as TESTS, test.start_time as DATE
-FROM `union_reporting`.`project`
-JOIN `union_reporting`.`test`
-ON project.id=test.project_id
-WHERE date(test.start_time) > '2015-11-07'
-order by project.name, test.name;

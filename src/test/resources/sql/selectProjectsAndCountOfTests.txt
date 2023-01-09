@@ -1,5 +1,0 @@
-SELECT project.name as PROJECT, COUNT(distinct test.name) as TESTS_COUNTS
-FROM `union_reporting`.`project`
-JOIN `union_reporting`.`test`
-ON project.id=test.project_id
-group by project.name;

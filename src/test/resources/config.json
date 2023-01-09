@@ -1,3 +1,16 @@
 {
-  "connectionString": "jdbc:mysql://localhost:3306/union_reporting"
+  "url": "https://vk.com/",
+  "login": "",
+  "password": "",
+  "requestUrl": "https://api.vk.com/method/",
+  "token": "vk1.a.ofJALvYT5UtqmhQgIXFd3ffNot6P5vlWByAmMW1etYcY_t7p8v4C_0zPydN8Q3KHzrKcT7uIToWhwxstnwK6INEBC4pO0rUJOhWMurzTN2sFncGH-GAmIPHwI_7Wfq3WNQM68sHnwfyjt7VaRWQhMsYOgUnTjIcrC2helnrG6n9Qf87NW6CXsvRi9hF-Ww5p-TGacZjM3nxy50bXDvivrA",
+  "ownerId": "627657327",
+  "version": "5.131",
+  "methodWallPost": "wall.post",
+  "methodWallEdit": "wall.edit",
+  "methodGetWallUploadServer": "photos.getWallUploadServer",
+  "methodSaveWallPhoto": "photos.saveWallPhoto",
+  "methodCreateComment": "wall.createComment",
+  "methodGetLikesList": "likes.getList",
+  "methodDeleteRecord": "wall.delete"
 }

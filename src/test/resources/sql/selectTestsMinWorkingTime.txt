@@ -1,5 +1,0 @@
-SELECT project.name as PROJECT, test.name as TESTS, test.end_time - test.start_time as MIN_WORKING_TIME
-FROM `union_reporting`.`project`
-JOIN `union_reporting`.`test`
-ON project.id=test.project_id
-order by project.name, test.name;
