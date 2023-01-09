@@ -1,0 +1,6 @@
+SELECT count(browser) as Browsers 
+FROM `union_reporting`.`test` 
+WHERE browser = 'firefox' 
+UNION SELECT count(browser) 
+FROM `union_reporting`.`test` 
+WHERE browser = 'chrome';

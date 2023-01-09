@@ -1,0 +1,6 @@
+{
+  "testsMinWorkingTimeFileName": "testsMinWorkingTime",
+  "projectsAndCountOfTestsFileName": "projectsAndCountOfTests",
+  "testsRunAfterDateFileName": "testsRunAfterDate",
+  "totalTestsByBrowserFileName": "totalTestsByBrowser"
+}
